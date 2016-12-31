@@ -8,11 +8,11 @@
 
 <span class="post-meta">
   <time datetime="{{ date | date_to_xmlschema }}" class="post-date">
-    {{ date | date_to_string }}
+    {{ date | date_to_long_string }}
   </time>
   <div class="post-tags">
     {% for tag in tags %}
-      <a href="{{site.github.url}}tags#{{ tag | slugize }}">{{ tag }}</a>
+      <a href="{{site.github.url}}/tags#{{ tag | slugize }}">{{ tag }}</a>
     {% endfor %}
   </div>
 </span>
