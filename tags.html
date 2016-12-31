@@ -24,7 +24,7 @@ permalink: /tags
       </h3>
 
       {% for post in site.tags[tag_name] %}
-        <a href="{{ post.url | prepend: baseurl }}">
+        <a href="{{ post.url | prepend: site.github.url }}">
           {{ post.title }}
         </a>
       {% endfor %}
