@@ -1,0 +1,18 @@
+{% if post %}
+  {% assign date = post.date %}
+  {% assign tags = post.tags %}
+{% else %}
+  {% assign date = page.date %}
+  {% assign tags = page.tags %}
+{% endif %}
+
+<span class="post-meta">
+  <time datetime="{{ date | date_to_xmlschema }}" class="post-date">
+    {{ date | date_to_string }}
+  </time>
+  <div class="post-tags">
+    {% for tag in tags %}
+      <a href="{{ site.baseurl }}/tags#{{ tag | slugize }}">{{ tag }}</a>
+    {% endfor %}
+  </div>
+</span>
