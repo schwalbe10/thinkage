@@ -3,7 +3,7 @@
 layout: default
 title: my first jekyll site
 ---
-# hello world!!!
+### Posts
 
 {% for post in site.posts %}
 - [{{post.title}}]({{site.github.url}}{{post.url}})

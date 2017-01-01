@@ -4,3 +4,10 @@ layout: default
 <h1>{{page.title}}</h1>
 {% include meta.html %}
 {{content}}
+
+<h3>Related Posts</h3>
+<ul>
+  {% for post in site.related_posts limit:5 %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
