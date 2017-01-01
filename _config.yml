@@ -32,4 +32,4 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-# lsi: true
+lsi: true
