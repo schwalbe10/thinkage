@@ -18,8 +18,6 @@ layout: default
 
   {{content}}
 
-  {% include adsense.html %}
-
   {% if post %}
     {% assign tags = post.tags %}
   {% else %}
@@ -33,6 +31,8 @@ layout: default
       {% endfor %}
     </ul>
   </div>
+  
+  {% include adsense.html %}
 
   <h3>Related Posts</h3>
   {% include related_posts.html %}
