@@ -8,13 +8,23 @@ body {
   font-family: Times;
 }
 
-h1, h2 {
-  margin-bottom: 10px;
-  line-height: 1em;
+p {
+  padding: 0 10px;
+  margin: 0;
 }
 
-h3 {
+h1, h2, h3 {
+  padding: 0;
   margin-bottom: 0;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 25px;
 }
 
 #header {
@@ -35,12 +45,28 @@ h3 {
   font-size: 20px;
 }
 
+#content {
+  padding: 0 10px;
+  margin: 0;
+}
+
+#main {
+  padding: 10px 10px;
+  margin: 0;
+}
+
 #footer {
   padding-bottom: 10px;
   margin: 0;
   font-size: 15px;
   line-height: 1em;
   text-align: center;
+}
+
+.date {
+  padding: 10px 30px;
+  margin: 0;
+  color: #696969;
 }
 
 .posts ul {
@@ -53,12 +79,15 @@ h3 {
 
 .tag li {
   padding: 0 10px;
+  margin: 0;
   display: inline-block;
-  background-color: blue;
+  background-color: #4169e1;
   border-radius: 10px;
 }
 .tag a {
   color: #ffffff;
+  font-size: 16px;
+  line-height: 0.8em;
   text-decoration: none;
 }
 
@@ -69,7 +98,19 @@ h3 {
     width: 100%;
   }
 
+  p {
+    padding: 0 5px;
+  }
+
+  #content {
+    padding: 0 5px;
+  }
+
   #main {
-    padding: 0 10px;
+    padding: 10px 5px;
+  }
+
+  .date {
+    padding-left: 20px;
   }
 }

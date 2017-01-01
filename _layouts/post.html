@@ -2,25 +2,39 @@
 layout: default
 ---
 <h1>{{page.title}}</h1>
-{% include meta.html %}
-{{content}}
+{% if post %}
+  {% assign date = post.date %}
+{% else %}
+  {% assign date = page.date %}
+{% endif %}
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Post -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7799498966871993"
-     data-ad-slot="9316225829"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="date">
+  <time datetime="{{ date | date_to_xmlschema }}">
+    {{ date | date_to_long_string }}
+  </time>
+</div>
 
-<h3>Related Posts</h3>
-<div class="posts">
-  <ul>
-    {% for post in site.related_posts limit:5 %}
-      <li><a href="{{site.github.url}}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div id="main">
+
+  {{content}}
+
+  {% include adsense.html %}
+
+  {% if post %}
+    {% assign tags = post.tags %}
+  {% else %}
+    {% assign tags = page.tags %}
+  {% endif %}
+
+  <div class="tag">
+    <ul>
+      {% for tag in tags %}
+        <li><a href="{{site.github.url}}/tags#{{ tag | slugize }}">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <h3>Related Posts</h3>
+  {% include related_posts.html %}
+
 </div>
