@@ -14,8 +14,6 @@ permalink: /tags
 
 {% include tag_cloud.html tag_names=tag_names %}
 
-<hr>
-
 <section class="posts-by-tags">
   {% for tag_name in tag_names %}
     <div>
@@ -23,11 +21,13 @@ permalink: /tags
         {{ tag_name | capitalize | replace: "_", " " }}
       </h3>
 
-      {% for post in site.tags[tag_name] %}
-        <a href="{{site.github.url}}{{ post.url | prepend: baseurl }}">
-          {{ post.title }}
-        </a>
-      {% endfor %}
+      <div class="posts">
+        <ul>
+          {% for post in site.tags[tag_name] %}
+            <li><a href="{{site.github.url}}{{ post.url | prepend: baseurl }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   {% endfor %}
 </section>
