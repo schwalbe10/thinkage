@@ -8,6 +8,15 @@ body {
   font-family: Times;
 }
 
+h1, h2 {
+  margin-bottom: 10px;
+  line-height: 1em;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
 #header {
   padding: 0;
   margin: 0;
@@ -34,12 +43,23 @@ body {
   text-align: center;
 }
 
+.posts ul {
+  padding-left: 20px;
+  margin: 0;
+}
 .posts li {
   list-style-type: none;
 }
 
-.tag-cloud li {
+.tag li {
+  padding: 0 10px;
   display: inline-block;
+  background-color: blue;
+  border-radius: 10px;
+}
+.tag a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 479px) {

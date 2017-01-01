@@ -12,7 +12,7 @@ permalink: /tags
 
 {% assign tag_names = tag_names | sort %}
 
-{% include tag_cloud.html tag_names=tag_names %}
+{% include tag.html tag_names=tag_names %}
 
 <section class="posts-by-tags">
   {% for tag_name in tag_names %}
