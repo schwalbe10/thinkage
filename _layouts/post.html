@@ -1,40 +1,42 @@
 ---
 layout: default
 ---
-<h1>{{page.title}}</h1>
+
 {% if post %}
   {% assign date = post.date %}
+  {% assign tags = post.tags %}
 {% else %}
   {% assign date = page.date %}
+  {% assign tags = page.tags %}
 {% endif %}
 
-<div class="date">
-  <time datetime="{{ date | date_to_xmlschema }}">
-    {{ date | date_to_long_string }}
-  </time>
-</div>
+<article>
+  <h1>{{page.title}}</h1>
 
-<div id="main">
-
-  {{content}}
-
-  {% if post %}
-    {% assign tags = post.tags %}
-  {% else %}
-    {% assign tags = page.tags %}
-  {% endif %}
-
-  <div class="tag">
-    <ul>
-      {% for tag in tags %}
-        <li><a href="{{site.github.url}}/tags#{{ tag | slugize }}">{{ tag }}</a></li>
-      {% endfor %}
-    </ul>
+  <div class="date">
+    <time datetime="{{ date | date_to_xmlschema }}">
+      {{ date | date_to_long_string }}
+    </time>
   </div>
-  
-  {% include adsense.html %}
 
-  <h3>Related Posts</h3>
-  {% include related_posts.html %}
+  <div id="content">
 
-</div>
+    {{content}}
+
+    <div class="tag">
+      <ul>
+        {% for tag in tags %}
+          <li><a href="{{site.github.url}}/tags#{{ tag | slugize }}">{{ tag }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    {% include adsense.html %}
+
+    <h3>Related Posts</h3>
+
+    {% include related_posts.html %}
+
+  </div>
+
+</article>

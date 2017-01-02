@@ -15,15 +15,12 @@ p {
 
 h1, h2, h3 {
   padding: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 h1 {
   font-size: 30px;
 }
-h2 {
-  font-size: 25px;
-}
-h3 {
+h2, h3 {
   font-size: 25px;
 }
 
@@ -39,18 +36,18 @@ h3 {
   line-height: 90px;
   font-size: 45px;
 }
-#header #menu {
+#header #nav {
   padding: 0;
   margin: 0;
   font-size: 20px;
 }
 
-#content {
+#main {
   padding: 0 10px;
   margin: 0;
 }
 
-#main {
+#content {
   padding: 10px 10px;
   margin: 0;
 }
@@ -102,11 +99,11 @@ h3 {
     padding: 0 5px;
   }
 
-  #content {
+  #main {
     padding: 0 5px;
   }
 
-  #main {
+  #content {
     padding: 10px 5px;
   }
 

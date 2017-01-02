@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Tags
-permalink: /tags
 ---
 
 {% assign tag_names = "" | split: "|"  %}
@@ -14,7 +13,7 @@ permalink: /tags
 
 {% include tag.html tag_names=tag_names %}
 
-<section class="posts-by-tags">
+<section class="section">
   {% for tag_name in tag_names %}
     <div>
       <h3 id="{{ tag_name }}">
