@@ -20,7 +20,7 @@ title: Tags
         {{ tag_name | capitalize | replace: "_", " " }}
       </h3>
 
-      <div class="posts">
+      <div class="list">
         <ul>
           {% for post in site.tags[tag_name] %}
             <li><a href="{{site.github.url}}{{ post.url | prepend: baseurl }}">{{ post.title }}</a></li>
