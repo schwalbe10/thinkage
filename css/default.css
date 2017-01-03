@@ -123,6 +123,11 @@ blockquote p {
   display: block;
 }
 
+.adsense {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 479px) {
   body {
     padding: 0;
