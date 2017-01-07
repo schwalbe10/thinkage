@@ -30,14 +30,13 @@ ul {
 
 blockquote {
   background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  border-left: 10px solid #cccccc;
   margin: 1em 30px;
   padding: 0.5em 10px;
-  color: #585858;
-  quotes: "\201C""\201D""\2018""\2019";
+  quotes: "\201C""\201D";
 }
 blockquote:before {
-  color: #ccc;
+  color: #cccccc;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -46,7 +45,13 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+  color: #585858;
   font-style: italic;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 #header {
