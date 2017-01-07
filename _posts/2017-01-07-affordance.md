@@ -3,8 +3,8 @@ layout: post
 title: "What is an Affordance?"
 date:  2017-01-07
 tags:
-- design
-- ux
+- Design
+- UX
 ---
 
 I am not a designer, and I've always wondered what an affordance is in the context of design. In [*The Design of Everyday Things*](https://www.amazon.com/gp/product/B00E257T6C/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00E257T6C&linkCode=as2&tag=schwalbe02-20&linkId=3688a260529114f651ea5c82d11ad5a4), Norman defined the term as follows:
