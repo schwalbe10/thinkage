@@ -11,7 +11,7 @@ I am not a designer, and I've always wondered what an affordance is in the conte
 
 > An affordance is a relationship between the properties of an object and the capabilities of the agent that determine just how the object could possibly be used.
 
-What does it mean? Let me give you an example. The door on the left affords "pull", because the handle has the meaning of pull for a door open. On the other side, the right one has the "push" accordance with the flat plate.
+What does it mean? Let me give you an example. The door on the left affords "pull", because the handle has the meaning of pull for a door open. On the other hand, the right one has the "push" accordance with the flat plate.
 
 ![Affordance]({{site.github.url}}/images/posts/affordance.png)
 
