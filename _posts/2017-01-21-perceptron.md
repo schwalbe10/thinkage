@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Deep Learning 1 - Perceptron"
+title: "Deep Learning 1 - Develop a logic gate by perceptron"
 date:  2017-01-21
 
 tags:
@@ -110,4 +110,4 @@ NAND
 (0, 1) -> 1
 (1, 1) -> 0
 ~~~~
-This is the first step to understand deep learning!
+This is the first step to understand deep learning
