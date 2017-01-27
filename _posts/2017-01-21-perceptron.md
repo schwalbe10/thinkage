@@ -12,7 +12,7 @@ The perceptron is an algorithm that signals information from an input layer to a
 
  ![perceptron]({{site.github.url}}/images/posts/perceptron.png)
 
-$$ x_1, x_2 $$ are input signals, $$ y $$ is an output signal, and $$ w_1, w_2 $$ are weights. Signals are also called neurons or nodes. They output 1, only if the sum of inputs is over thresholds. In this case, the function is represented as follows:
+$$ x_1, x_2 $$ are input signals, $$ y $$ is an output signal,  $$ b $$ is a bias, and $$ w_1, w_2 $$ are weights. Signals are also called neurons or nodes. They output 1, only if the sum of inputs is over thresholds. In this case, the function is represented as follows:
 
 $$
 \begin{eqnarray*}
@@ -25,7 +25,7 @@ $$
 \end{eqnarray*}
 $$
 
-Here, $$ b $$ is a bias. You can create a logic gate with this function. If $$ b=-1.5 $$, $$ w_1=1 $$, and $$  w_2=1 $$, it will be the AND gate. This is the truth table for AND, OR, and NAND. Check the values ($$ b, w_1, w_2 $$) for the OR and NAND gates by yourself!
+You can create a logic gate with this function. If $$ b=-1.5 $$, $$ w_1=1 $$, and $$  w_2=1 $$, it will be the AND gate. This is the truth table for AND, OR, and NAND. Check the values ($$ b, w_1, w_2 $$) for the OR and NAND gates by yourself!
 
 |AND|OR|NAND|
 |:--:|:--:|:--:|

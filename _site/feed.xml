@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-26T21:56:11+09:00</updated><id>http://localhost:4000//</id><title type="html">Thinkage</title><entry><title type="html">Deep Learning 1 - Develop a logic gate by perceptron</title><link href="http://localhost:4000/2017/01/21/perceptron.html" rel="alternate" type="text/html" title="Deep Learning 1 - Develop a logic gate by perceptron" /><published>2017-01-21T00:00:00+09:00</published><updated>2017-01-21T00:00:00+09:00</updated><id>http://localhost:4000/2017/01/21/perceptron</id><content type="html" xml:base="http://localhost:4000/2017/01/21/perceptron.html">&lt;p&gt;The perceptron is an algorithm that signals information from an input layer to an output layer. The figure shows the 2 inputs perceptron.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-28T00:40:50+09:00</updated><id>http://localhost:4000//</id><title type="html">Thinkage</title><entry><title type="html">Deep Learning 1 - Develop a logic gate by perceptron</title><link href="http://localhost:4000/2017/01/21/perceptron.html" rel="alternate" type="text/html" title="Deep Learning 1 - Develop a logic gate by perceptron" /><published>2017-01-21T00:00:00+09:00</published><updated>2017-01-21T00:00:00+09:00</updated><id>http://localhost:4000/2017/01/21/perceptron</id><content type="html" xml:base="http://localhost:4000/2017/01/21/perceptron.html">&lt;p&gt;The perceptron is an algorithm that signals information from an input layer to an output layer. The figure shows the 2 inputs perceptron.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/perceptron.png&quot; alt=&quot;perceptron&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;x_1, x_2&lt;/script&gt; are input signals, &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt; is an output signal, and &lt;script type=&quot;math/tex&quot;&gt;w_1, w_2&lt;/script&gt; are weights. Signals are also called neurons or nodes. They output 1, only if the sum of inputs is over thresholds. In this case, the function is represented as follows:&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;x_1, x_2&lt;/script&gt; are input signals, &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt; is an output signal,  &lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt; is a bias, and &lt;script type=&quot;math/tex&quot;&gt;w_1, w_2&lt;/script&gt; are weights. Signals are also called neurons or nodes. They output 1, only if the sum of inputs is over thresholds. In this case, the function is represented as follows:&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{eqnarray*}
@@ -14,7 +14,7 @@
     \right.
 \end{eqnarray*} %]]&gt;&lt;/script&gt;
 
-&lt;p&gt;Here, &lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt; is a bias. You can create a logic gate with this function. If &lt;script type=&quot;math/tex&quot;&gt;b=-1.5&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;w_1=1&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;w_2=1&lt;/script&gt;, it will be the AND gate. This is the truth table for AND, OR, and NAND. Check the values (&lt;script type=&quot;math/tex&quot;&gt;b, w_1, w_2&lt;/script&gt;) for the OR and NAND gates by yourself!&lt;/p&gt;
+&lt;p&gt;You can create a logic gate with this function. If &lt;script type=&quot;math/tex&quot;&gt;b=-1.5&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;w_1=1&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;w_2=1&lt;/script&gt;, it will be the AND gate. This is the truth table for AND, OR, and NAND. Check the values (&lt;script type=&quot;math/tex&quot;&gt;b, w_1, w_2&lt;/script&gt;) for the OR and NAND gates by yourself!&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -194,60 +194,52 @@ NAND
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;This is the first step to understand deep learning&lt;/p&gt;</content><category term="Deep Learning" /><category term="Python" /><summary type="html">The perceptron is an algorithm that signals information from an input layer to an output layer. The figure shows the 2 inputs perceptron.</summary></entry><entry><title type="html">What is an Affordance?</title><link href="http://localhost:4000/2017/01/07/affordance.html" rel="alternate" type="text/html" title="What is an Affordance?" /><published>2017-01-07T00:00:00+09:00</published><updated>2017-01-07T00:00:00+09:00</updated><id>http://localhost:4000/2017/01/07/affordance</id><content type="html" xml:base="http://localhost:4000/2017/01/07/affordance.html">&lt;p&gt;I am not a designer, and I’ve always wondered what an affordance is in the context of design. In &lt;a href=&quot;https://www.amazon.com/gp/product/B00E257T6C/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B00E257T6C&amp;amp;linkCode=as2&amp;amp;tag=schwalbe02-20&amp;amp;linkId=3688a260529114f651ea5c82d11ad5a4&quot;&gt;&lt;em&gt;The Design of Everyday Things&lt;/em&gt;&lt;/a&gt;, Norman defined the term as follows:&lt;/p&gt;
+&lt;p&gt;This is the first step to understand deep learning&lt;/p&gt;</content><category term="Deep Learning" /><category term="Python" /><summary type="html">The perceptron is an algorithm that signals information from an input layer to an output layer. The figure shows the 2 inputs perceptron.</summary></entry><entry><title type="html">What is an Affordance?</title><link href="http://localhost:4000/2017/01/07/affordance.html" rel="alternate" type="text/html" title="What is an Affordance?" /><published>2017-01-07T00:00:00+09:00</published><updated>2017-01-07T00:00:00+09:00</updated><id>http://localhost:4000/2017/01/07/affordance</id><content type="html" xml:base="http://localhost:4000/2017/01/07/affordance.html">I am not a designer, and I've always wondered what an affordance is in the context of design. In [*The Design of Everyday Things*](https://www.amazon.com/gp/product/B00E257T6C/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00E257T6C&amp;linkCode=as2&amp;tag=schwalbe02-20&amp;linkId=3688a260529114f651ea5c82d11ad5a4), Norman defined the term as follows:
 
-&lt;blockquote&gt;
-  &lt;p&gt;An affordance is a relationship between the properties of an object and the capabilities of the agent that determine just how the object could possibly be used.&lt;/p&gt;
-&lt;/blockquote&gt;
+&gt; An affordance is a relationship between the properties of an object and the capabilities of the agent that determine just how the object could possibly be used.
 
-&lt;p&gt;What does it mean? Let me give you an example. The door on the left affords “pull”, because the handle has the meaning of pull for a door open. On the other hand, the right one has the “push” accordance with the flat plate.&lt;/p&gt;
+What does it mean? Let me give you an example. The door on the left affords &quot;pull&quot;, because the handle has the meaning of pull for a door open. On the other hand, the right one has the &quot;push&quot; accordance with the flat plate.
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/affordance.png&quot; alt=&quot;Affordance&quot; /&gt;&lt;/p&gt;
+![Affordance]({{site.github.url}}/images/posts/affordance.png)
 
-&lt;p&gt;Please note that Norman’s concept of an affordance is different from the original one coined by Gibson, a perceptual psychologist. He described it in &lt;a href=&quot;https://www.amazon.com/gp/product/B00PWAKE2M/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B00PWAKE2M&amp;amp;linkCode=as2&amp;amp;tag=schwalbe02-20&amp;amp;linkId=6c4f324b42a9e397c6b6256cc12c3a34&quot;&gt;&lt;em&gt;The Ecological Approach to Visual Perception&lt;/em&gt;&lt;/a&gt;:&lt;/p&gt;
+Please note that Norman's concept of an affordance is different from the original one coined by Gibson, a perceptual psychologist. He described it in [*The Ecological Approach to Visual Perception*](https://www.amazon.com/gp/product/B00PWAKE2M/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00PWAKE2M&amp;linkCode=as2&amp;tag=schwalbe02-20&amp;linkId=6c4f324b42a9e397c6b6256cc12c3a34):
 
-&lt;blockquote&gt;
-  &lt;p&gt;The affordances of the environment are what it offers the animal, what it provides or furnishes, either for good or ill.&lt;/p&gt;
-&lt;/blockquote&gt;
+&gt; The affordances of the environment are what it offers the animal, what it provides or furnishes, either for good or ill.
 
-&lt;p&gt;Norman focused on the information that specifies how the object can be used, but Gibson’s affordance is independent of the actor’s ability to perceive it. Norman explained that he would replace it by “perceived affordance” later. However, his definition has been widely accepted.&lt;/p&gt;
+Norman focused on the information that specifies how the object can be used, but Gibson's affordance is independent of the actor's ability to perceive it. Norman explained that he would replace it by &quot;perceived affordance&quot; later. However, his definition has been widely accepted.
 
-&lt;p&gt;That’s why we confuse an affordance. Although Norman’s use of term is distinct from Gibson’s, an affordance is the important concept for a user experience.&lt;/p&gt;
+That's why we confuse an affordance. Although Norman's use of term is distinct from Gibson's, an affordance is the important concept for a user experience.
 
-&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
+### Reference
 
 &lt;div class=&quot;list&quot;&gt;
   &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/gp/product/B00A3T5UO4/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B00A3T5UO4&amp;amp;linkCode=as2&amp;amp;tag=schwalbe02-20&amp;amp;linkId=db36aefc748314e488ec8261f4666202&quot;&gt;Universal Principles of Design&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/gp/product/B00E257T6C/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B00E257T6C&amp;amp;linkCode=as2&amp;amp;tag=schwalbe02-20&amp;amp;linkId=3688a260529114f651ea5c82d11ad5a4&quot;&gt;The Design of Everyday Things&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/gp/product/B00PWAKE2M/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B00PWAKE2M&amp;amp;linkCode=as2&amp;amp;tag=schwalbe02-20&amp;amp;linkId=6c4f324b42a9e397c6b6256cc12c3a34&quot;&gt;The Ecological Approach to Visual Perception&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/gp/product/B00A3T5UO4/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00A3T5UO4&amp;linkCode=as2&amp;tag=schwalbe02-20&amp;linkId=db36aefc748314e488ec8261f4666202&quot;&gt;Universal Principles of Design&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/gp/product/B00E257T6C/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00E257T6C&amp;linkCode=as2&amp;tag=schwalbe02-20&amp;linkId=3688a260529114f651ea5c82d11ad5a4&quot;&gt;The Design of Everyday Things&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/gp/product/B00PWAKE2M/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00PWAKE2M&amp;linkCode=as2&amp;tag=schwalbe02-20&amp;linkId=6c4f324b42a9e397c6b6256cc12c3a34&quot;&gt;The Ecological Approach to Visual Perception&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/affordances&quot;&gt;Affordances&lt;/a&gt;&lt;/li&gt;  
   &lt;/ul&gt;
-&lt;/div&gt;</content><category term="Design" /><category term="UX" /><summary type="html">I am not a designer, and I’ve always wondered what an affordance is in the context of design. In The Design of Everyday Things, Norman defined the term as follows:</summary></entry><entry><title type="html">Startup Usermind will change business operations by BizOps software</title><link href="http://localhost:4000/2017/01/03/usermind.html" rel="alternate" type="text/html" title="Startup Usermind will change business operations by BizOps software" /><published>2017-01-03T00:00:00+09:00</published><updated>2017-01-03T00:00:00+09:00</updated><id>http://localhost:4000/2017/01/03/usermind</id><content type="html" xml:base="http://localhost:4000/2017/01/03/usermind.html">&lt;p&gt;Usermind is a startup which provides BizOps software. It enables you to integrate systems and unify data. Are you familiar with &lt;a href=&quot;https://ifttt.com/&quot;&gt;IFTTT&lt;/a&gt;? I think Usermind is the enterprise version of IFTTT and it can involve a wide variety of departments.&lt;/p&gt;
+&lt;/div&gt;</content><category term="Design" /><category term="UX" /><summary type="html">I am not a designer, and I’ve always wondered what an affordance is in the context of design. In The Design of Everyday Things, Norman defined the term as follows:</summary></entry><entry><title type="html">Startup Usermind will change business operations by BizOps software</title><link href="http://localhost:4000/2017/01/03/usermind.html" rel="alternate" type="text/html" title="Startup Usermind will change business operations by BizOps software" /><published>2017-01-03T00:00:00+09:00</published><updated>2017-01-03T00:00:00+09:00</updated><id>http://localhost:4000/2017/01/03/usermind</id><content type="html" xml:base="http://localhost:4000/2017/01/03/usermind.html">Usermind is a startup which provides BizOps software. It enables you to integrate systems and unify data. Are you familiar with [IFTTT](https://ifttt.com/)? I think Usermind is the enterprise version of IFTTT and it can involve a wide variety of departments.
 
 &lt;div class=&quot;video&quot;&gt;
   &lt;iframe allowtransparency=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; class=&quot;wistia_embed&quot; name=&quot;wistia_embed&quot; src=&quot;https://fast.wistia.com/embed/iframe/tklg46l31i&quot; width=&quot;480&quot; height=&quot;270&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Michel Feaster, the CEO of Usermind, points out that BizOps has three core principles:&lt;/p&gt;
+Michel Feaster, the CEO of Usermind, points out that BizOps has three core principles:
 
-&lt;ul&gt;
-  &lt;li&gt;Break down the walls between business operations teams such as marketing, sales, and finance.&lt;/li&gt;
-  &lt;li&gt;Shift perspective from leads, opportunities, and escalations to focus on customer, partner, and product lifecycles.&lt;/li&gt;
-  &lt;li&gt;Combine analysis with action and experimentation to drive growth, decrease churn and cost of sale, and increase the lifetime value of a customer.&lt;/li&gt;
-&lt;/ul&gt;
+- Break down the walls between business operations teams such as marketing, sales, and finance.
+- Shift perspective from leads, opportunities, and escalations to focus on customer, partner, and product lifecycles.
+- Combine analysis with action and experimentation to drive growth, decrease churn and cost of sale, and increase the lifetime value of a customer.
 
-&lt;p&gt;In order to fulfill them, Usermind has a function of dynamic integrations, customer data store, BizOps process automisation, and end-to-end process analysis. It can integrate more than 20 applications like Salesforce. Although many of them are marketing tools now, it contains software of sales, finance, and customer satisfaction as well.&lt;/p&gt;
+In order to fulfill them, Usermind has a function of dynamic integrations, customer data store, BizOps process automisation, and end-to-end process analysis. It can integrate more than 20 applications like Salesforce. Although many of them are marketing tools now, it contains software of sales, finance, and customer satisfaction as well.
 
-&lt;p&gt;In 2013, Andreessen Horowitz and CRV put $7.6 million into the company through its Series A, and Menlo Ventures did $14.5 million through its Series B in 2016. Ben Horowitz left the following comment about Usermind and the founder.&lt;/p&gt;
+In 2013, Andreessen Horowitz and CRV put $7.6 million into the company through its Series A, and Menlo Ventures did $14.5 million through its Series B in 2016. Ben Horowitz left the following comment about Usermind and the founder.
 
-&lt;blockquote&gt;
-  &lt;p&gt;So you can imagine how thrilled I was when Michel Feaster showed up at my door with her idea for Usermind. She planned to build my dream product: a system that would coordinate and measure processes across organizations and systems.&lt;/p&gt;
-&lt;/blockquote&gt;
+&gt; So you can imagine how thrilled I was when Michel Feaster showed up at my door with her idea for Usermind. She planned to build my dream product: a system that would coordinate and measure processes across organizations and systems.
 
-&lt;p&gt;Usermind will solve a problem about disruption of business process in a lot of companies. I also hope for integration of BizOps and DevOps in the near future!&lt;/p&gt;
+Usermind will solve a problem about disruption of business process in a lot of companies. I also hope for integration of BizOps and DevOps in the near future!
 
-&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
+### Reference
 
 &lt;div class=&quot;list&quot;&gt;
   &lt;ul&gt;
