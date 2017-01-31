@@ -22,6 +22,9 @@ h1, h2, h3 {
 h1 {
     font-size: 30px;
 }
+h2, h3 {
+    margin-top: 50px;
+}
 
 ul {
     padding-left: 40px;
@@ -148,6 +151,12 @@ blockquote p {
     padding: 0;
     margin: 0 auto;
     display: block;
+}
+
+.source {
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
 }
 
 .adsense {

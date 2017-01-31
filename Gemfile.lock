@@ -3,11 +3,11 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    classifier-reborn (2.0.5)
+    classifier-reborn (2.1.0)
       fast-stemmer (~> 1.0)
     colorator (1.1.0)
     fast-stemmer (1.0.2)
-    ffi (1.9.14)
+    ffi (1.9.17)
     forwardable-extended (2.6.0)
     jekyll (3.3.1)
       addressable (~> 2.4)
@@ -26,9 +26,9 @@ GEM
       sass (~> 3.4)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
-    kramdown (1.13.1)
+    kramdown (1.13.2)
     liquid (3.0.6)
-    listen (3.0.8)
+    listen (3.0.6)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
@@ -36,7 +36,7 @@ GEM
       jekyll (~> 3.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    public_suffix (2.0.4)
+    public_suffix (2.0.5)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -54,7 +54,7 @@ DEPENDENCIES
   minima (~> 2.0)
 
 RUBY VERSION
-   ruby 2.3.0p0
+   ruby 2.4.0p0
 
 BUNDLED WITH
-   1.13.7
+   1.14.3
