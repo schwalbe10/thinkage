@@ -43,9 +43,9 @@ import numpy as np
 
 def and(x1, x2):
     x = np.array([x1, x2])
-    w = np.array([1, 1]) 
+    w = np.array([1, 1])
     b = -1.5
-    y = np.sum(w*x) + b 
+    y = np.sum(w*x) + b
     if y <= 0:
         return 0
     else:
@@ -53,9 +53,9 @@ def and(x1, x2):
 
 def or(x1, x2):
     x = np.array([x1, x2])
-    w = np.array([1, 1]) 
+    w = np.array([1, 1])
     b = -0.5
-    y = np.sum(w*x) + b 
+    y = np.sum(w*x) + b
     if y <= 0:
         return 0
     else:
@@ -64,8 +64,8 @@ def or(x1, x2):
 def nand(x1, x2):
     x = np.array([x1, x2])
     w = np.array([-1, -1])
-    b = 1.5 
-    y = np.sum(w*x) + b 
+    b = 1.5
+    y = np.sum(w*x) + b
     if y <= 0:
         return 0
     else:
@@ -73,18 +73,18 @@ def nand(x1, x2):
 
 
 if __name__ == '__main__':
-    input = [(0, 0), (1, 0), (0, 1), (1, 1)] 
-    
+    input = [(0, 0), (1, 0), (0, 1), (1, 1)]
+
     print("AND")
     for x in input:
         y = and(x[0], x[1])
         print(str(x) + " -> " + str(y))
-    
+
     print("OR")
     for x in input:
         y = or(x[0], x[1])
         print(str(x) + " -> " + str(y))
-    
+
     print("NAND")
     for x in input:
         y = nand(x[0], x[1])
@@ -93,7 +93,7 @@ if __name__ == '__main__':
 
 The results are here:
 
-~~~ 
+~~~
 AND
 (0, 0) -> 0
 (1, 0) -> 0
@@ -112,6 +112,8 @@ NAND
 ~~~~
 
 This is the first step to understand deep learning
+
+### Reference
 
 <div class="list">
   <ul>
