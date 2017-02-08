@@ -110,4 +110,11 @@ NAND
 (0, 1) -> 1
 (1, 1) -> 0
 ~~~~
+
 This is the first step to understand deep learning
+
+<div class="list">
+  <ul>
+    <li><a href="https://www.amazon.co.jp/gp/product/4873117585/ref=as_li_tf_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4873117585&linkCode=as2&tag=schwalbe0d-22">Deep Learning From Scratch (Japanese)</a></li>
+  </ul>
+</div>
