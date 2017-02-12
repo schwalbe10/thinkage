@@ -11,21 +11,21 @@ tags:
 The perceptron is an algorithm that signals information from an input layer to an output layer. The figure shows the 2 inputs perceptron.
 
  ![perceptron]({{site.github.url}}/images/posts/perceptron.png)
-
-$$ x_1, x_2 $$ are input signals, $$ y $$ is an output signal,  $$ b $$ is a bias, and $$ w_1, w_2 $$ are weights. Signals are also called neurons or nodes. They output 1, only if the sum of inputs is over thresholds. In this case, the function is represented as follows:
+w_0
+$$ x_1, x_2 $$ are input signals, $$ y $$ is an output signal,  $$ w_0 $$ is a bias, and $$ w_1, w_2 $$ are weights. Signals are also called neurons or nodes. They output 1, only if the sum of inputs is over thresholds. In this case, the function is represented as follows:
 
 $$
 \begin{eqnarray*}
     y = \left\{
         \begin{array}{l}
-            0 & ( b + w_1x_1 + w_2x_2  \leqq 0) \\
-            1 & ( b + w_1x_1 + w_2x_2  > 0)
+            0 & ( w_0 + w_1x_1 + w_2x_2  \leqq 0) \\
+            1 & ( w_0 + w_1x_1 + w_2x_2  > 0)
         \end{array}
     \right.
 \end{eqnarray*}
 $$
 
-You can create a logic gate with this function. If $$ b=-1.5 $$, $$ w_1=1 $$, and $$  w_2=1 $$, it will be the AND gate. This is the truth table for AND, OR, and NAND. Check the values ($$ b, w_1, w_2 $$) for the OR and NAND gates by yourself!
+You can create a logic gate with this function. If $$ w_0=-1.5 $$, $$ w_1=1 $$, and $$  w_2=1 $$, it will be the AND gate. This is the truth table for AND, OR, and NAND. Check the values ($$ w_0, w_1, w_2 $$) for the OR and NAND gates by yourself!
 
 |AND|OR|NAND|
 |:--:|:--:|:--:|
@@ -41,31 +41,28 @@ It is really simple. You can implement it with the following python code:
 import numpy as np
 
 
-def and(x1, x2):
-    x = np.array([x1, x2])
-    w = np.array([1, 1])
-    b = -1.5
-    y = np.sum(w*x) + b
+def AND(x1, x2):
+    x = np.array([1, x1, x2])
+    w = np.array([-1.5, 1, 1])
+    y = np.sum(w*x)
     if y <= 0:
         return 0
     else:
         return 1
 
-def or(x1, x2):
-    x = np.array([x1, x2])
-    w = np.array([1, 1])
-    b = -0.5
-    y = np.sum(w*x) + b
+def OR(x1, x2):
+    x = np.array([1, x1, x2])
+    w = np.array([-0.5, 1, 1])
+    y = np.sum(w*x)
     if y <= 0:
         return 0
     else:
         return 1
 
-def nand(x1, x2):
-    x = np.array([x1, x2])
-    w = np.array([-1, -1])
-    b = 1.5
-    y = np.sum(w*x) + b
+def NAND(x1, x2):
+    x = np.array([1, x1, x2])
+    w = np.array([1.5, -1, -1])
+    y = np.sum(w*x)
     if y <= 0:
         return 0
     else:
@@ -77,17 +74,17 @@ if __name__ == '__main__':
 
     print("AND")
     for x in input:
-        y = and(x[0], x[1])
+        y = AND(x[0], x[1])
         print(str(x) + " -> " + str(y))
 
     print("OR")
     for x in input:
-        y = or(x[0], x[1])
+        y = OR(x[0], x[1])
         print(str(x) + " -> " + str(y))
 
     print("NAND")
     for x in input:
-        y = nand(x[0], x[1])
+        y = NAND(x[0], x[1])
         print(str(x) + " -> " + str(y))
 ~~~
 
