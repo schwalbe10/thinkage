@@ -4,6 +4,7 @@ title: "Deep Learning 1 - Develop a logic gate by perceptron"
 date:  2017-01-21
 
 tags:
+- AI
 - Deep Learning
 - Python
 ---

@@ -4,6 +4,7 @@ title: "Deep Learning 2 - Introduce the activation functions for neural network"
 date:  2017-02-12
 
 tags:
+- AI
 - Deep Learning
 - Python
 ---
