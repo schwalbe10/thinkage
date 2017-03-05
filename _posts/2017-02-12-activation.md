@@ -82,6 +82,8 @@ plt.legend()
 plt.show()
 ~~~
 
+*The sample code is [here](https://github.com/schwalbe10/ThinkageDeepLearning).*
+
 ### Reference
 
 <div class="list">

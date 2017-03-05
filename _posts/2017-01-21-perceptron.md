@@ -109,7 +109,9 @@ NAND
 (1, 1) -> 0
 ~~~~
 
-This is the first step to understand deep learning
+This is the first step to understand deep learning.
+
+*The sample code is [here](https://github.com/schwalbe10/ThinkageDeepLearning).*
 
 ### Reference
 
