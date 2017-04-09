@@ -87,6 +87,7 @@ $$
 The first one is the definition, and the second one is for calculation to prevent an overflow by exponential functions. The softmax function is often used in the final layer of neural networks.
 
 If you execute it, you can get the accuracy. This is forward propagation of neural networks.
+
 ```
 python 04_recognition.py
 Accuracy:0.9352
