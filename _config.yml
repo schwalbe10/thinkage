@@ -29,8 +29,8 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    line_numbers: true
+  # syntax_highlighter_opts:
+    # line_numbers: true
 theme: minima
 gems:
   - jekyll-feed
