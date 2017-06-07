@@ -10,7 +10,6 @@ tags:
 - inspiration
 ---
 
-
 In [Human-Centered Design 1]({{site.github.url}}/2017/05/17/mindset.html), I introduced three phases of human-centered design (Inspiration, Ideation, and Implementation). Here is the ideation part. This phase is to learn the people you're designing for with an open and creative mind. The key word is *immersion*.
 
 The most important thing to understand the people is immersing yourself in their communities. After you create a plan, build a team, and have an interview, place yourself where they live and work. The following methods are the examples to gain inspiration from immersion.
