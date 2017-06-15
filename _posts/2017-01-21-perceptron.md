@@ -12,7 +12,7 @@ tags:
 The perceptron is an algorithm that signals information from an input layer to an output layer. The figure shows the 2 inputs perceptron.
 
  ![perceptron]({{site.github.url}}/images/posts/perceptron.png)
-w_0
+
 $$ x_1, x_2 $$ are input signals, $$ y $$ is an output signal,  $$ w_0 $$ is a bias, and $$ w_1, w_2 $$ are weights. Signals are also called neurons or nodes. They output 1, only if the sum of inputs is over thresholds. In this case, the function is represented as follows:
 
 $$
