@@ -7,7 +7,6 @@ tags:
 - Design
 - UX
 - Human-Centered Design
-- inspiration
 ---
 
 In [Human-Centered Design 1]({{site.github.url}}/2017/05/17/mindset.html), I introduced three phases of human-centered design (Inspiration, Ideation, and Implementation). Here is the ideation part. This phase is to learn the people you're designing for with an open and creative mind. The key word is *immersion*.
