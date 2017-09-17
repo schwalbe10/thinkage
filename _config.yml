@@ -37,5 +37,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-lsi: true
+# lsi: true
 exclude: ['vendor/bundle', 'node_modules', '.git', '.bundle', '.saas-cache', '.bowerrc', '.gitignore', 'Gemfile', 'Gemfile.lock']

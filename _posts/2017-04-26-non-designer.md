@@ -8,7 +8,7 @@ tags:
 - UX
 ---
 
-Please look at two covers below. What is the difference between them? The right one is in line with the 4 basic principles of design, but the left one is not. Today, I illustrate the principles—Proximity, Alignment, Repetition, and Contrast—according to [*The Non-Designer's Design Book*](https://www.amazon.com/gp/product/B00PWDFWEE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00PWDFWEE&linkCode=as2&tag=schwalbe02-20&linkId=82044a5e0c03bac73e255ccd997a9590).
+Please look at two covers below. What is the difference between them? The right one is in line with the 4 basic principles of design, but the left one is not. Today, I illustrate the principles—Proximity, Alignment, Repetition, and Contrast—according to [*The Non-Designer's Design Book*](https://www.amazon.com/gp/product/B00PWDFWEE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00PWDFWEE&linkCode=as2&tag=schwalbe03-20&linkId=82044a5e0c03bac73e255ccd997a9590).
 
 ![cover]({{site.github.url}}/images/posts/cover.png)
 
@@ -52,6 +52,6 @@ The dark red font has a role of contrast as well as repetition. Readers can reco
 
 <div class="list">
   <ul>
-    <li><a href="https://www.amazon.com/gp/product/B00PWDFWEE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00PWDFWEE&linkCode=as2&tag=schwalbe02-20&linkId=82044a5e0c03bac73e255ccd997a9590">The Non-Designer's Design Book</a></li>
+    <li><a href="https://www.amazon.com/gp/product/B00PWDFWEE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00PWDFWEE&linkCode=as2&tag=schwalbe03-20&linkId=82044a5e0c03bac73e255ccd997a9590">The Non-Designer's Design Book</a></li>
  </ul>
 </div>
