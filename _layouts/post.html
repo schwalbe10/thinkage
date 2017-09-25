@@ -23,10 +23,6 @@ layout: default
 
     {{content}}
 
-    {% include adsense.html %}
-
-    {% include related_posts.html %}
-
     <div class="tag">
       <ul>
         {% for tag in tags %}
@@ -34,6 +30,10 @@ layout: default
         {% endfor %}
       </ul>
     </div>
+
+    {% include adsense.html %}
+
+    {% include related_posts.html %}
 
   </div>
 
